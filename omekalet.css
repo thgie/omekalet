@@ -1,0 +1,95 @@
+.omekalet-wrapper {
+    position: fixed;
+    top: -305px;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #efefef;
+    z-index: 10000000;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.786;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+
+    transition: all .25s ease;
+}
+.omekalet-wrapper.show {
+    max-height: 500px;
+}
+.omekalet-wrapper:hover {
+    top: 0px !important;
+}
+.omekalet-wrapper > div {
+    float: left;
+    width: 33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.omekalet-wrapper > div:last-child {
+    width: 34%;
+}
+.omekalet-wrapper input,
+.omekalet-wrapper input[type=text],
+.omekalet-wrapper select,
+.omekalet-wrapper textarea {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    background: white !important;
+    font-size: 14px;
+    color: #181818 !important;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: none !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #e4e8eb !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+    padding: 9px 12px !important;
+}
+.omekalet-wrapper input[type=checkbox] {
+    width: auto !important;
+    display: inline-block !important;
+}
+.omekalet-wrapper label {
+    font-size: 12px;
+}
+.omekalet-wrapper textarea {
+    height: 90px !important;
+}
+.omekalet-wrapper button {
+    display: inline-block !important;
+    color: #ffffff !important;
+    background: #181818 !important;
+    border: medium none !important;
+    padding: 0 16px !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    font-weight: 400 !important;
+    line-height: 40px !important;
+    height: auto !important;
+}
+.omekalet-wrapper .show-button {
+    position: absolute;
+    margin-left: -20px;
+    left: 50%;
+    width: 40px !important;
+    height: 40px;
+    line-height: 40px;
+    background: #e85141;
+    border-radius: 50%;
+    bottom: -20px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.omekalet-wrapper p.status {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+.omekalet-wrapper .hide,
+.omekalet-wrapper input.hide {
+    display: none !important;
+}
